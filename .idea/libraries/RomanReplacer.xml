@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="RomanReplacer">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/RomanReplacer.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
