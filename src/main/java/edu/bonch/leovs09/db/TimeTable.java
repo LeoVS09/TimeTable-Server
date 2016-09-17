@@ -57,8 +57,12 @@ public class TimeTable {
             }
     }
 
-    public String[] getListOfGroups(){
-        return new String[2];
+    public ArrayList<String> getListOfGroups(){
+        ArrayList<String> groups = new ArrayList<>();
+        for(Schedule schedule: schedules){
+            groups.addAll(schedule.getGroups());
+        }
+        return groups;
     }
 
     public DataClientTable getDataTableForGroup(String group){

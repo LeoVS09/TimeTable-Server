@@ -20,9 +20,13 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="timeTable_endpointsSrc" target="1.8" />
+      <module name="TimeTable_endpointsSrc" target="1.8" />
+      <module name="TimeTable_functionalTest" target="1.8" />
       <module name="timeTable_functionalTest" target="1.8" />
+      <module name="TimeTable_main" target="1.8" />
       <module name="timeTable_main" target="1.8" />
       <module name="timeTable_test" target="1.8" />
+      <module name="TimeTable_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

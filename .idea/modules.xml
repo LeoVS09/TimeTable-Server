@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/timeTable.iml" filepath="$PROJECT_DIR$/.idea/modules/timeTable.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/timeTable_endpointsSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/timeTable_endpointsSrc.iml" group="timeTable" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/timeTable_functionalTest.iml" filepath="$PROJECT_DIR$/.idea/modules/timeTable_functionalTest.iml" group="timeTable" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/timeTable_main.iml" filepath="$PROJECT_DIR$/.idea/modules/timeTable_main.iml" group="timeTable" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/timeTable_test.iml" filepath="$PROJECT_DIR$/.idea/modules/timeTable_test.iml" group="timeTable" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TimeTable.iml" filepath="$PROJECT_DIR$/.idea/modules/TimeTable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TimeTable_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TimeTable_main.iml" group="TimeTable" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TimeTable_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TimeTable_test.iml" group="TimeTable" />
     </modules>
   </component>
 </project>

@@ -7,15 +7,14 @@ buildscript {
 	}
 	dependencies {
 		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
-		classpath 'com.google.appengine:gradle-appengine-plugin:1.9.42'
+
 	}
 }
 
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'spring-boot'
-apply plugin: 'appengine'
-apply plugin: 'war'
+
 
 jar {
 	baseName = 'timetable'
@@ -36,11 +35,3 @@ dependencies {
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
-appengine{
-	warDir = file("\\build\\libs")
-
-	appcfg {
-		email = "LeoVS010@gmail.com"
-		oauth2 = true
-	}
-}

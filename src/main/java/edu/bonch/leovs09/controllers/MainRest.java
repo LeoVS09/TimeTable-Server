@@ -29,6 +29,7 @@ public class MainRest {
 
     @RequestMapping("/")
     public String index() {
+        log.info("index is start");
         return "LOL";
     }
 
